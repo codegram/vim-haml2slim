@@ -1,6 +1,6 @@
 # vim-haml2slim
 
-This is a small VIm plugin that helps converting [HAML](http://haml.info/)
+This is a small VIm plugin that helps converting [Haml](http://haml.info/)
 files to [Slim](http://slim-lang.com/). The plugin opens the new Slim file in a
 new vertical split.
 
@@ -19,14 +19,14 @@ Bundle 'codegram/vim-haml2slim'
 
 ## Recommended mapping and usage
 
-This mapping will convert the current HAML file:
+This mapping will convert the current Haml file:
 
 ```vim
 " Haml2Slim.vim mapping
 nnoremap <leader>h2s :call Haml2Slim(bufname("%"))<CR>
 ```
 
-If you want to convert another HAML file, you can use the following command
+If you want to convert another Haml file, you can use the following command
 from inside your VIm.
 
 ```vim
